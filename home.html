@@ -1,0 +1,66 @@
+
+    <!DOCTYPE html>
+<html>
+    <head>
+	<title>Navigation Bar</title>
+	<style>
+	
+		.navbar {
+			overflow: hidden;
+			background-color: #333;
+			display: flex;
+		}
+
+
+		.navbar a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			background-color: rgb(138, 221, 138);
+			width: 25%;
+		}
+
+	
+		.navbar a:first-child {
+			background-color: rgb(125, 125, 245);
+		}
+
+	
+		.navbar a:nth-child(2) {
+			background-color:rgb(234, 130, 130);
+		}
+
+		.navbar a:nth-child(3) {
+			background-color: rgb(242, 127, 198);
+		}
+
+
+		.navbar a:nth-child(4) {
+			background-color:rgb(237, 237, 127);
+		}
+
+		
+		.navbar a:hover {
+			background-color:rgb(131, 87, 87);
+		}
+
+		.navbar .active {
+			background-color: rgb(255, 255, 255);
+			color: rgb(255, 255, 255);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="navbar">
+		<a href="#" class="active">Home</a>
+		<a href="#">Artical</a>
+		<a href="#">Contact</a>
+		<a href="#">About</a>
+	</div>
+
+</body>
+</html>
+
